@@ -1,5 +1,6 @@
 import React from 'react' //importa react
 import {BrowserRouter} from 'react-router-dom'
+import Navbar from './components/menu/Navbar';
 import RoutesApp from './routes/RoutesApp';
 
 
@@ -27,6 +28,7 @@ const App = () => { //función de flechas
       {/*<CounterApp valor={valorIniciar} mensaje ={mensaje} />*/}
       {/*<IntroApp/>*/}
       <BrowserRouter>
+      <Navbar />
       <RoutesApp />
       </BrowserRouter>
       </div>

@@ -7,6 +7,7 @@ import ErrorScreen from '../pages/ErrorScreen'
 const RoutesApp = () => {
   return (
    <Routes>
+    
     <Route path='/' element={<HomeScreen />}/>
     <Route path='/about' element={<AboutScreen />}/>
     <Route path='*' element={<ErrorScreen />}/>
